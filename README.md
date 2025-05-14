@@ -45,15 +45,14 @@ end
 endmodule
 ```
 */
-
 **RTL LOGIC FOR 4 Bit Ripple Counter**
 
-![12l](https://github.com/user-attachments/assets/e5f98029-39ef-4802-8c4f-7d4d6a7f45c2)
+![Screenshot 2025-05-09 175010](https://github.com/user-attachments/assets/c1dd14e5-eb2f-4c52-806d-3b6748362615)
 
 
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
 
-![12w](https://github.com/user-attachments/assets/ff1bb898-baf7-4506-9582-cc88c2178092)
+![Screenshot 2025-05-09 175126](https://github.com/user-attachments/assets/7e8b92b8-230e-4e16-96fe-7a8bf0ddb5f3)
 
 
 **RESULTS**
