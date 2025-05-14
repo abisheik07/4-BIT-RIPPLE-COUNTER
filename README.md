@@ -1,4 +1,6 @@
 # 4-BIT-RIPPLE-COUNTER
+# NAME: ABISHEIK RAJ.J
+# REGISTER NUMBER : 212224230006
 
 **AIM:**
 
@@ -29,12 +31,31 @@ In timing diagram Q0 is changing as soon as the negative edge of clock pulse is 
 **PROGRAM**
 
 /* Program for 4 Bit Ripple Counter and verify its truth table in quartus using Verilog programming.
-
- Developed by: RegisterNumber:
+```
+module ex12(out,clk,rst);
+input clk,rst;
+output reg [3:0]out;
+always @ (posedge clk)
+begin
+   if(rst)
+     out<=0;
+   else 
+     out <= out-1;
+end
+endmodule
+```
 */
 
 **RTL LOGIC FOR 4 Bit Ripple Counter**
 
+![12l](https://github.com/user-attachments/assets/e5f98029-39ef-4802-8c4f-7d4d6a7f45c2)
+
+
 **TIMING DIGRAMS FOR 4 Bit Ripple Counter**
 
+![12w](https://github.com/user-attachments/assets/ff1bb898-baf7-4506-9582-cc88c2178092)
+
+
 **RESULTS**
+
+Thus the program is executed successfully.
